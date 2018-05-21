@@ -1,0 +1,1367 @@
+@charset "utf-8";
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html{
+	background-color: #FDFFFF;
+}
+
+header{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	overflow: auto;
+}
+
+.derecha{
+	float: right;
+	margin-top: -60px;
+}
+
+/*LOGO*/
+
+#idiomas{
+	float: right;
+}
+
+.logo{
+	float: left;
+	margin-bottom: -30px;
+}
+
+/*LOGO*/
+
+/*MENU*/
+#hamburguesa{
+	display:none; 
+}	
+
+#equis{
+	display:none;
+}
+
+#menu-responsive{
+	display:none;
+}
+
+#menu{
+	width:100%;
+
+}
+
+
+
+#menuresponsive {
+	list-style-type:none;
+	width:800px;
+	overflow: auto;
+	float: right;
+	clear: both;
+}
+	
+#menuresponsive li a{
+	width: 180px;
+	display: block;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: rgba(0,0,0,1.00);
+	text-align: center;	
+	margin-bottom: 105px;
+	}
+	
+#menuresponsive li a:hover{
+	color:#21a9b0;
+	}
+
+.activo{
+	color: #21a9b0;
+}
+
+.idioma{
+	float: right;
+	overflow: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color:#21a9b0;
+	text-decoration: none;
+}
+		
+/*MENU*/
+
+/*PARALAX*/
+
+.image1{
+	position:relative;
+	clear: both;
+	height: 100%;
+}
+
+.image1 h1{
+    top: 93px;
+    position: absolute;
+    left: 60px;
+    color: #21a9b0;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+    padding-top: 28px;
+    padding-bottom: 45px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 16px;
+}
+
+.image1 a{
+	position: absolute;
+	top: 350px;
+	left: 76px;
+	font-weight: bold;
+	background-color: rgba(255,255,255,1);
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #21a9b0;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 20;
+}
+
+.image1 a:hover{
+	background-color:rgba(255,255,255,0.5) ;
+	color: #21a9b0;
+}
+
+/*PARALAX*/
+
+
+/*CITA*/
+.labelficha{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color:rgba(0,0,0,1.00);
+	margin-right: 20px;
+	display: block;/*alinear los input*/
+	padding: 5px;
+}
+
+.inputcita{
+	padding: 5px;
+	font-family:  'Open Sans', sans-serif;
+	color:rgba(0,0,0,0.3);
+	font-size: 16px;
+	border: thin solid #21a9b0;
+	width: 80%;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+.select{
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+	color: rgba(0,0,0,1.00);
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: thin solid rgba(0,0,0,1.00);
+	width: 100%;
+	height: 70px;
+}
+
+.verde{
+	color:rgba(255,255,255,1.00);
+	font-family: 'Open Sans', sans-serif;
+	background-color: #21a9b0;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+/*CITA*/
+
+
+#container{
+	max-width: 1200px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:auto;
+	}
+
+/*QUIROPRACTICA*/
+
+#quiropractica{
+	margin-bottom: 50px;
+	clear: both;
+	overflow: auto;
+}
+
+.titulo{
+	font-family: 'Lora';
+	font-size: 30px;
+	color:rgba(75,75,75,1.00);
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.txt{
+	font-family:  'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-top: 10px;
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#tipos{
+	overflow: auto;
+	margin-top: 70px;
+	margin-bottom: 60px;
+}
+
+.col{
+	width: 33%;
+	padding: 10px;
+	position: relative;
+}
+
+.subtutilos{
+	color:rgba(0,0,0,1.00);
+	font-size: 16px;
+	font-family:  'Open Sans', sans-serif;
+	line-height: 25px;
+	border-bottom: #21a9b0 1px solid;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.subtutilos:hover{
+	color:#21a9b0;
+}
+
+
+
+
+
+.subtit{
+	color:rgba(0,0,0,1.00);
+	font-size: 20px;
+	font-family:  'Open Sans', sans-serif;
+	line-height: 25px;
+}
+
+.colquiro{
+	width:50%;
+	float: left;
+	padding: 20px;
+}
+
+.colquiro p{
+	font-family:  'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-top: 10px;
+	width: 80%;
+	line-height: 27px;
+	margin-bottom: 70px;
+}
+
+.azul{
+	color: #21a9b0;
+}
+
+.tit2{
+	font-family: 'Lora';
+	font-size: 30px;
+	color:rgba(75,75,75,1.00);
+	margin-bottom: 40px;
+}
+
+.izq{
+	float: left;
+	margin-right: 30px;
+}
+
+
+.tit3{
+	font-family: 'Lora';
+	font-size: 20px;
+	color:#21a9b0;
+	margin-bottom: 20px;
+}
+
+.tipos{
+	clear: both;
+	margin-top: 150px;
+}
+
+/*CURSOS*/
+
+
+
+.proxtit{
+	color:rgba(0,0,0,1.00);
+	font-size: 20px;
+	font-family:  'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+.prox{
+	float: right;
+	overflow: auto;
+	margin-top: 50px;
+	margin-right: 150px;
+}
+.curso{
+	margin-left: 30px;
+	margin-bottom: 50px;
+	border-left: thin solid #21a9b0;
+	padding-left: 20px;
+}
+
+.fecha{
+	font-size: 14px;
+	font-family:  'Open Sans', sans-serif;
+	float: left;
+	margin-right: 5px;
+	font-style: italic;
+}
+
+.tipo{
+	font-size: 14px;
+	font-family:  'Open Sans', sans-serif;
+	color: #21a9b0;
+		font-style: italic;
+
+}
+
+.txtcurso{
+	font-size: 16px;
+	font-family:  'Open Sans', sans-serif;
+}
+
+
+.explic{
+	font-size: 16px;
+	font-family:  'Open Sans', sans-serif;
+	float: left;
+	width: 40%;
+	margin-top: 50px;
+
+}
+
+#cursos{
+	margin-bottom: 50px;
+	clear: both;
+	overflow: auto;
+	
+}
+
+.colcurso{
+	/*border: 3px solid #21a9b0;*/
+	width: 30%;
+	float: left;
+	padding: 15px;
+	margin-left: 25px;
+}
+
+
+.txtcurso2{
+	font-size: 14px;
+	font-family:  'Open Sans', sans-serif;
+	margin-top: 20px;
+
+}
+
+.mas{
+	clear: both;
+	float: right;
+	font-size: 14px;
+	font-family:  'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+
+/*CURSOS*/
+
+
+
+
+/*CONTACTO*/
+
+#contacto{
+	overflow: auto;
+	clear: both;
+}
+
+.colcontacto{
+	float: left;
+	width: 33%;
+	margin-top: 50px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+}
+
+.titulos2{
+	color:rgba(0,0,0,1.00);
+	font-size: 20px;
+	font-family:  'Open Sans', sans-serif;
+	margin-bottom: 20px;
+	color: #21a9b0;
+
+}
+
+.txtcontacto{
+	font-family:  'Open Sans', sans-serif;
+	font-size: 16px;
+	color:rgba(0,0,0,1.00);
+}
+
+
+#email{
+	clear: both;
+	margin-top: 50px;
+}
+
+#formcontacto{
+	width: 70%;
+	margin-bottom: 80px; 
+}
+
+.subtutilos2{
+	color:rgba(0,0,0,1.00);
+	font-size: 20px;
+	font-family:  'Open Sans', sans-serif;
+	margin-left: 80px;
+	text-align: center;
+	line-height: 25px;
+}
+
+.input2{
+	padding: 5px;
+	font-family:  'Open Sans', sans-serif;
+	color:rgba(0,0,0,0.3);
+	font-size: 16px;
+	border: thin solid #21a9b0;
+	width: 23%;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+.input3{
+	padding: 5px;
+	font-family:  'Open Sans', sans-serif;
+	color:rgba(0,0,0,0.3);
+	font-size: 16px;
+	border: thin solid #21a9b0;
+	width: 100%;
+	padding-bottom: 55px;
+	clear: both;
+	float: left;
+
+}
+
+.enviar2{	
+	background-color: rgba(33,169,176,0.8);
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: rgba(255,255,255,1.00);
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	clear: both;
+	margin-top: 20px;
+
+}
+
+
+/*CONTACTO*/
+
+
+/*FORMULARIO*/
+
+#login{
+	margin-bottom: 80px;
+	text-align: center;
+	border: 2px solid #21a9b0;
+	padding: 20px;
+}
+.inputform{
+	padding: 5px;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(0,0,0,1.00);
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: thin solid   #21a9b0;
+}
+
+/*FORMULARIO*/
+
+
+/*PIE*/
+
+#pie{
+	background-image: url("img/fotos buenas/WhatsApp Image 2018-05-11 at 17.03.44.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+	padding-bottom: 25px;
+}
+
+#container2{
+	max-width: 1200px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+.colpie{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.titulo2{
+	font-family: 'Lora';
+	font-size: 20px;
+	margin-top: 30px;
+	color:rgba(75,75,75,1.00);
+}
+
+.txtpie{
+	font-family:  'Open Sans', sans-serif;
+	font-size: 16px;
+	color: rgba(255,255,255,1.00);
+
+}
+
+.boton{
+	border: 2px solid rgba(255,255,255,1.00);
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: rgba(255,255,255,1.00);
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	margin-top: 50px;
+}
+
+.boton:hover{
+	background-color: rgba(255,255,255,0.5);
+}
+
+.enlace{
+	font-family:  'Open Sans', sans-serif;
+	font-size: 16px;
+	color: rgba(255,255,255,1.00);
+	text-decoration: none;
+}
+
+.enlace:hover{
+	color: rgba(255,255,255,0.5);
+}
+
+.enlace2{
+	font-family:  'Open Sans', sans-serif;
+	font-size: 16px;
+	color: rgba(255,255,255,1.00);
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+.enlace2:hover{
+	color: rgba(255,255,255,0.5);
+}
+
+.linea2{
+	border-bottom: 1px solid rgba(255,255,255,1.00);
+	margin-bottom: 10px;
+}
+
+.admin{
+	float: right;
+}
+
+
+/*PIE*/
+@media screen and (min-width:481px) and (max-width:1024px){
+	
+#container{
+		margin-left:30px;
+		margin-right:30px;
+	}
+	
+header{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	overflow: auto;
+}
+	
+	#idiomas{
+		display: none;
+	}
+
+.derecha{
+	float: right;
+	margin-top: -60px;
+}
+
+/*LOGO*/
+
+.logo{
+	float: none;
+	margin-bottom: 15px;
+}
+
+/*LOGO*/
+
+/*MENU*/
+	
+	#hamburguesa{
+		display: block;
+		cursor: pointer;
+	}
+
+
+#menuresponsive {
+	display: none;
+}
+
+	
+#equis{
+	display:block;
+	float:right;
+	margin-bottom:70px;
+	z-index:1000;	
+	background-color: rgba(255,255,255,1.00);
+	padding: 2px;
+}
+
+#equis:hover{
+	cursor:pointer;
+}
+
+
+#menu-responsive{
+	display:block;
+}
+
+#menu-responsive{
+	height: 100%;
+	width: 100%;
+	background-color:#21a9b0;
+	position: absolute; 
+	left: -100%;
+	top: 0px;
+	z-index: 1000;
+	text-align:center;
+	overflow:auto;
+	padding:25px;
+	padding-top:44px;
+	padding-right:48px;
+}
+
+#menu-responsive ul{
+	list-style-type:none;
+	margin-top:100px;
+}	
+
+
+#menu-responsive ul li a{
+	width:100%;
+	margin-bottom:5px;
+	font-family:  'Open Sans', sans-serif;
+	letter-spacing:2px;
+	text-decoration: none;
+	font-size: 30px;
+	color:rgba(255,255,255,1.00);
+	display: block;
+	line-height:50px;
+}
+
+#menu-responsive ul li a:hover{
+	color:rgba(0,0,0,0.5);
+	
+}
+
+		
+/*MENU*/
+
+/*PARALAX*/
+
+.idioma{
+	float: right;
+	overflow: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color:#21a9b0;
+	text-decoration: none;
+}
+
+	
+.idioma2{
+	overflow: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color:white;
+	text-decoration: none;
+	margin-top: 20px;
+}
+		
+/*MENU*/
+
+/*PARALAX*/
+
+.image1{
+	position:relative;
+	clear: both;
+	height: 100%;
+}
+
+.image1 h1{
+position: absolute;
+    left: 60px;
+    color: #21a9b0;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    line-height: 15px;
+    top: 10px;
+    padding-top: 40px;
+
+}
+
+.image1 a{
+position: absolute;
+    top: 188px;
+    left: 76px;
+    font-weight: bold;
+    background-color: rgba(255,255,255,1);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #21a9b0;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.image1 a:hover{
+	background-color:rgba(255,255,255,0.5) ;
+	color: #21a9b0;
+}
+/*PARALAX*/
+
+
+
+/*QUIROPRACTICA*/
+
+.txt{
+text-align: center;
+}
+
+
+#tipos{
+	overflow: auto;
+	margin-top: 30px;
+}
+
+.subtutilos{
+	font-size: 16px;
+	top: 40%;
+}
+
+.subtutilos2{
+	font-size: 16px;
+	top: 40%;
+	margin-left:68px;
+}
+
+.subtutilos3{
+	font-size: 16px;
+	top: 40%;
+	margin-left: 80px;
+}
+
+
+/*CURSOS*/
+
+
+
+.proxtit{
+	color:rgba(0,0,0,1.00);
+	font-size: 20px;
+	font-family:  'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+.prox{
+	float: right;
+	overflow: auto;
+	margin-top: 50px;
+	margin-right: 150px;
+}
+.curso{
+	margin-left: 30px;
+	margin-bottom: 50px;
+	border-left: thin solid #21a9b0;
+	padding-left: 20px;
+}
+
+.fecha{
+	font-size: 14px;
+	font-family:  'Open Sans', sans-serif;
+	float: left;
+	margin-right: 5px;
+}
+
+.tipo{
+	font-size: 14px;
+	font-family:  'Open Sans', sans-serif;
+	color: #21a9b0;
+}
+
+.txtcurso{
+	font-size: 16px;
+	font-family:  'Open Sans', sans-serif;
+}
+
+
+.explic{
+	font-size: 16px;
+	font-family:  'Open Sans', sans-serif;
+	float: left;
+	width: 40%;
+	margin-top: 50px;
+
+}
+
+.colcurso{
+	/*border: 3px solid #21a9b0;*/
+	width: 45%;
+	float: left;
+	padding: 15px;
+	margin-left: 25px;
+}
+
+
+
+/*CURSOS*/
+
+
+
+/*QUIROPRACTICA*/
+
+
+/*CONTACTO*/
+
+#contacto{
+	overflow: auto;
+	clear: both;
+}
+
+.colcontacto{
+	float: left;
+	width: 33%;
+	margin-top: 50px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+}
+
+.txtcontacto{
+	font-family:  'Open Sans', sans-serif;
+	font-size: 16px;
+	color:rgba(0,0,0,1.00);
+}
+
+
+#email{
+	clear: both;
+}
+
+#formcontacto{
+	width: 70%;
+	margin-bottom: 80px; 
+}
+
+.input2{
+	padding: 5px;
+	font-family:  'Open Sans', sans-serif;
+	color:rgba(0,0,0,0.3);
+	font-size: 16px;
+	border: thin solid #21a9b0;
+	width: 23%;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+.input3{
+	padding: 5px;
+	font-family:  'Open Sans', sans-serif;
+	color:rgba(0,0,0,0.3);
+	font-size: 16px;
+	border: thin solid #21a9b0;
+	width: 100%;
+	padding-bottom: 55px;
+	clear: both;
+	float: left;
+
+}
+
+.enviar2{	
+	background-color: rgba(33,169,176,0.8);
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: rgba(255,255,255,1.00);
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	clear: both;
+	margin-top: 20px;
+
+}
+
+
+/*CONTACTO*/
+
+
+/*PIE*/
+
+#pie{
+	background-color: #21a9b0;
+	overflow: auto;
+	padding-bottom: 25px;
+}
+
+#container2{
+	max-width: 100%;
+	margin-left:20px;
+	margin-right:20px;
+	}
+
+.colpie{
+	width: 50%;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+/*PIE*/
+}
+
+
+@media screen and (max-width:481px){
+	
+	
+header{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	overflow: auto;
+}
+	
+	#idiomas{
+		display: none;
+	}
+	
+	
+
+.derecha{
+	float: right;
+	margin-top: -60px;
+}
+
+/*LOGO*/
+
+.logo{
+	float: none;
+	width: 50%;
+}
+
+/*LOGO*/
+
+/*MENU*/
+	
+	#hamburguesa{
+		display: block;
+		cursor: pointer;
+	}
+
+
+#menuresponsive {
+	display: none;
+}
+
+	
+#equis{
+	display:block;
+	float:right;
+	margin-bottom:70px;
+	z-index:1000;	
+	background-color: rgba(255,255,255,1.00);
+	padding: 2px;
+}
+
+#equis:hover{
+	cursor:pointer;
+}
+
+
+#menu-responsive{
+	display:block;
+}
+
+#menu-responsive{
+	height: 100%;
+	width: 100%;
+	background-color:#21a9b0;
+	position: absolute; 
+	left: -100%;
+	top: 0px;
+	z-index: 1000;
+	text-align:center;
+	overflow:auto;
+	padding:25px;
+	padding-top:44px;
+	padding-right:48px;
+}
+
+#menu-responsive ul{
+	list-style-type:none;
+	margin-top:100px;
+}	
+
+
+#menu-responsive ul li a{
+	width:100%;
+	margin-bottom:5px;
+	font-family:  'Open Sans', sans-serif;
+	letter-spacing:2px;
+	text-decoration: none;
+	font-size: 30px;
+	color:rgba(255,255,255,1.00);
+	display: block;
+	line-height:50px;
+}
+
+#menu-responsive ul li a:hover{
+	color:rgba(0,0,0,0.5);
+	
+}
+
+		
+/*MENU*/
+
+/*PARALAX*/
+
+.idioma{
+	float: right;
+	overflow: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color:#21a9b0;
+	text-decoration: none;
+}
+
+	
+.idioma2{
+	overflow: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color:white;
+	text-decoration: none;
+	margin-top: 20px;
+}
+		
+/*MENU*/
+
+/*PARALAX*/
+
+.image1{
+	position:relative;
+	clear: both;
+	height: 100%;
+}
+
+.image1 h1{
+display: none;
+
+}
+	
+	.mas{
+		padding-right: 20px;
+	}
+
+.image1 a{
+position: absolute;
+    top: 48px;
+    left: 103px;
+    font-weight: bold;
+    background-color: rgba(255,255,255,1);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #21a9b0;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.image1 a:hover{
+	background-color:rgba(255,255,255,0.5) ;
+	color: #21a9b0;
+}
+/*PARALAX*/
+
+
+
+/*QUIROPRACTICA*/
+
+.txt{
+text-align: center;
+}
+
+
+#tipos{
+	overflow: auto;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.subtutilos{
+	font-size: 16px;
+	top: 40%;
+	margin-bottom: 20px;
+}
+
+.subtutilos2{
+	font-size: 16px;
+	top: 40%;
+	margin-left:68px;
+}
+
+.subtutilos3{
+	font-size: 16px;
+	top: 40%;
+	margin-left: 80px;
+}
+	
+	.colquiro{
+		width: 100%;
+		float: none;
+	}
+	
+	.colquiro p{
+    font-size: 14px;
+    width: 100%;
+    line-height: 24px;
+	}
+
+}
+
+.tit2 {
+    font-family: 'Lora';
+    font-size: 25px;
+    color: rgba(75,75,75,1.00);
+    margin-bottom: 25px;
+}
+
+.izq {
+    text-align: center;
+    float: none;
+   margin-right: 0px;
+    width: 100%;
+}
+/*CURSOS*/
+
+
+
+.proxtit{
+	color:rgba(0,0,0,1.00);
+	font-size: 20px;
+	font-family:  'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+.prox{
+	float: right;
+	overflow: auto;
+	margin-top: 50px;
+	margin-right: 150px;
+}
+.curso{
+	margin-left: 30px;
+	margin-bottom: 50px;
+	border-left: thin solid #21a9b0;
+	padding-left: 20px;
+}
+
+.fecha{
+	font-size: 14px;
+	font-family:  'Open Sans', sans-serif;
+	float: left;
+	margin-right: 5px;
+}
+
+.tipo{
+	font-size: 14px;
+	font-family:  'Open Sans', sans-serif;
+	color: #21a9b0;
+}
+	
+	.tipos{
+		margin-top: 0px;
+		padding: 20px;
+	}
+
+.txtcurso{
+	font-size: 16px;
+	font-family:  'Open Sans', sans-serif;
+}
+
+
+.explic{
+	font-size: 16px;
+	font-family:  'Open Sans', sans-serif;
+	float: left;
+	width: 40%;
+	margin-top: 50px;
+
+}
+
+.colcurso{
+	/*border: 3px solid #21a9b0;*/
+	width: 45%;
+	float: left;
+	padding: 15px;
+	margin-left: 0px;
+}
+
+
+
+/*CURSOS*/
+
+
+
+/*QUIROPRACTICA*/
+
+
+/*CONTACTO*/
+
+#contacto{
+	overflow: auto;
+	clear: both;
+}
+
+.colcontacto{
+	float: left;
+	width: 33%;
+	margin-top: 50px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+}
+
+.txtcontacto{
+	font-family:  'Open Sans', sans-serif;
+	font-size: 16px;
+	color:rgba(0,0,0,1.00);
+}
+
+
+#email{
+	clear: both;
+}
+
+#formcontacto{
+	width: 70%;
+	margin-bottom: 80px; 
+}
+
+.input2{
+	padding: 5px;
+	font-family:  'Open Sans', sans-serif;
+	color:rgba(0,0,0,0.3);
+	font-size: 16px;
+	border: thin solid #21a9b0;
+	width: 23%;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+.input3{
+	padding: 5px;
+	font-family:  'Open Sans', sans-serif;
+	color:rgba(0,0,0,0.3);
+	font-size: 16px;
+	border: thin solid #21a9b0;
+	width: 100%;
+	padding-bottom: 55px;
+	clear: both;
+	float: left;
+
+}
+
+.enviar2{	
+	background-color: rgba(33,169,176,0.8);
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: rgba(255,255,255,1.00);
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	clear: both;
+	margin-top: 20px;
+
+}
+
+
+/*CONTACTO*/
+
+
+/*PIE*/
+
+#pie{
+	background-color: #21a9b0;
+	overflow: auto;
+	padding-bottom: 25px;
+}
+
+#container2{
+	max-width: 100%;
+	margin-left:20px;
+	margin-right:20px;
+	}
+
+.colpie{
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+/*PIE*/
+}
